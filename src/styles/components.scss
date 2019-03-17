@@ -1,0 +1,25 @@
+.html-component {
+	.header {
+		display: block;
+		width: 100%;
+		background-color: #50c878;
+		-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+		
+		.container-fluid {
+			font-size: 3em;
+			.row {
+				.col-2 {
+					font-size: 16px;
+					.emerald {
+						font-family: 'Candal';
+					}
+					.realm {
+						font-family: Anaktoria;
+					}
+				}
+			}
+		}
+	}
+}
