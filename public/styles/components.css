@@ -6,17 +6,18 @@
   -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.html-component .header .container-fluid {
-  font-size: 3em;
+.html-component .header .container-fluid .row .col-4 {
+  font-size: 32px;
 }
-.html-component .header .container-fluid .row .col-2 {
-  font-size: 16px;
+.html-component .header .container-fluid .row .col-4 .emerald {
+  font-family: Candal;
 }
-.html-component .header .container-fluid .row .col-2 .emerald {
-  font-family: "Candal";
-}
-.html-component .header .container-fluid .row .col-2 .realm {
+.html-component .header .container-fluid .row .col-4 .realm {
   font-family: Anaktoria;
+}
+.html-component .toogle-menu {
+  display: inline-block;
+  margin-right: 24px;
 }
 
 /*# sourceMappingURL=components.css.map */
