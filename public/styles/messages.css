@@ -1,5 +1,9 @@
 #message {
+  position: absolute;
+  top: 24px;
+  left: 24px;
   padding: 24px;
+  width: 20%;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);

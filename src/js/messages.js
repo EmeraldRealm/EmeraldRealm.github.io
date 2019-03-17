@@ -1,17 +1,23 @@
-const Message = {
-	interval: 5000,
-	container: document.getElementById('messages'),
-	remove: function() {
-		container.style.display = "none";
+const Messages = {
+	show: function(type,text) {
+		let interval = 5000;
+		let container = document.getElementById('messages');
+		console.log('container',container);
+		let msgClass = type + '-message';
+		let remove = function() { 
+			console.log('Inside remove')
+			container.style.display = 'none';
+		};
+		container.className = "";
+		container.classList.add(msgClass);
+		container.style.display = 'block';
+		container.innerText = text;
+		setTimeout(remove,interval);
 	},
 	error: function(text) {
-		container.className = "";
-		container.classList.add("error-message");
-		setTimeout(this.remove(),this.interval);
+		this.show('error',text);
 	},
 	success: function(text) {
-		container.className = "";
-		container.classList.add('success-message');
-		setTimeout(this.remove(),this.interval);
+		this.show('success',text);
 	}
 }
