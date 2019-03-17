@@ -1,0 +1,15 @@
+#message {
+	padding: 24px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+	border: 1px solid #fff;
+}
+
+#messages.error-message {
+	background-color: #DC143C;
+}
+
+#messages.success-message {
+	background-color: #006600;
+}
