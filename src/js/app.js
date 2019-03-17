@@ -1,6 +1,7 @@
 (function() {
 	
 	const app = {
+
 		name: "Emerald Realm",
 		
 		loadHTMLComponents: () => {
@@ -13,12 +14,11 @@
 			}
 			[...components].forEach(loadComponent)
 		}
+
 	};
 	
 	document.getElementsByTagName('title')[0].innerText = app.name;
 
 	app.loadHTMLComponents();
-
-	Messages.success("Testando")
 	
 })();
